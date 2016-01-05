@@ -1,0 +1,1 @@
+In this project, you'll be using all of the skills you've learned to build an exact copy of a website mockup for a restaurant.
