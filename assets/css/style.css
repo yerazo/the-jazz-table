@@ -21,6 +21,17 @@ body{
 .secondary-background{
   background-color:#ffffff;
 }
+.btn{
+	text-decoration: none;
+	text-align: center;
+	padding: 8px 15px;
+	height: 30px;
+	border-radius: 4px;
+	font-weight: 300;
+}
+.btn:hover{
+	opacity: 0.8;
+}
 
 /*HEADER*/
 
@@ -54,22 +65,55 @@ header .nav li a{
 	text-decoration: none;
 	margin: 0 10px;
 }
+header .nav li a:hover{
+    text-decoration: underline;
+}
 
 /*MAIN*/
-
-.content{
-	background-color: gray;
-	width: 100%;
+main{
+	padding: 70px 70px;
 	text-align: center;
+}
+.content{
+	width: 100%;
+	padding-bottom: 50px;
+}
+.col-25{
+	width: 25%;
+	float: left;
+}
+.col-50{
+	width: 50%;
+}
+
+/*SPECIALS*/
+.specials{
+	background-color: white;
+	border-radius: 8px 8px 0px 0px; 
+	padding: 15px 0 25px 0;
+	margin: 0 30px 0 40px;
+	box-sizing: border-box;
+}
+.image-border{
+	padding: 0 35px;
+}
+.image-border img{
+	border-radius: 100px;
+	border: 2px solid #519872;
 }
 
 /*FOOTER*/
-
+.austin{
+	float: left;
+}
+.san-francisco{
+	float: left;
+}
 footer{
 	width: 100%;
-	height: 80px;
 	padding: 30px 0px 30px 0px;
 	text-align: center;
+	font-weight: 300;
 	clear: both;
 }
 footer img{
