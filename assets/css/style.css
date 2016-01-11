@@ -36,6 +36,7 @@ h1{
 }
 h2{
 	font-weight: 300;
+	margin: 50px 0 35px 0;
 }
 h3{
 	font-weight: 300;
@@ -87,45 +88,48 @@ header .nav li a:hover{
 
 /*MAIN*/
 main{
-	padding: 70px 90px;
+	margin: 25px 0 auto 80px;
+	width: 85%;
+	overflow: auto;
 	text-align: center;
 }
-.content{
-	width: 100%;
-	padding-bottom: 50px;
+main .cta{
+	display: inline-block;
+	margin-top: 10px;
 }
+
 .col-25{
 	width: 25%;
 	float: left;
 }
-.col-50{
-	width: 50%;
-}
-.content h2{
-	margin: 90px 0 30px 0;
-}
-/*SPECIALS*/
-.specials{
-	background-color: white;
-	border-radius: 8px 8px 0px 0px; 
-	padding: 15px 0 25px 0;
+
+.col-third{
+	width: 33.333333%;
+	float: left;
+	padding: 0 35px;
 	box-sizing: border-box;
 }
-.salad{
-	padding: 25px 25px 25px 0;
+/*SPECIALS*/
+#specials{
+	width: 90%;
+	overflow: auto;
+	margin-top: 75px auto 0 auto;
 }
-.parm{
-	padding: 25px;
+#specials h2{
+	margin-bottom: 50px;
 }
-.spaghetti{
-	padding: 25px 0 25px 25px;
+.special{
+	background-color: white;
+	border-radius: 8px 8px 0px 0px; 
+	padding: 15px;
 }
-.image-border{
-	padding: 0 35px;
-}
-.image-border img{
+
+.special img{
 	border-radius: 50%;
 	border: 2px solid #519872;
+}
+.special h4{
+  margin:12px 0 0 0;
 }
 
 /*FOOTER*/
